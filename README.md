@@ -15,8 +15,8 @@ Frisken, S., "SurfaceNets for Multi-Label Segmentations with Preservation of Sha
 
 ## Build
 
-mkdir build
-cd build
-cmake -DCMAKE_PREFIX_PATH=~/Qt/5.15.2/clang_64 ..
-make
+		mkdir build  
+		cd build  
+		cmake -DCMAKE_PREFIX_PATH=~/Qt/5.15.2/clang_64 ..   
+		make
 
