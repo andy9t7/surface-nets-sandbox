@@ -9,8 +9,8 @@
 
 #include "MMSurfaceNet.h"
 
-#include "MaterialTable.h"
-#include "SetValueGroup.h"
+#include "materialTable.h"
+#include "setValueGroup.h"
 
 #include <QWidget>
 #include <QVBoxLayout>

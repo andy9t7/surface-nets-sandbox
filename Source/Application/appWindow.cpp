@@ -344,10 +344,10 @@ void AppWindow::onExport()
 			QTextStream stream(&file);
 			MMGeometryOBJ::OBJData data = geometry->objData(*itMatIdx);
 			for (std::vector<std::array<float, 3>>::iterator v = data.vertexPositions.begin(); v != data.vertexPositions.end(); v++) {
-				stream << "v " << (*v)[0] << ' ' << (*v)[1] << ' ' << (*v)[2] << endl;
+				stream << "v " << (*v)[0] << ' ' << (*v)[1] << ' ' << (*v)[2] << Qt::endl;
 			}
 			for (std::vector< std::array<int, 3>>::iterator t = data.triangles.begin(); t != data.triangles.end(); t++) {
-				stream << "f " << (*t)[0] << ' ' << (*t)[1] << ' ' << (*t)[2] << endl;
+				stream << "f " << (*t)[0] << ' ' << (*t)[1] << ' ' << (*t)[2] << Qt::endl;
 			}
 		}
 	}
