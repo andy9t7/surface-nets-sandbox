@@ -10,3 +10,13 @@ Available: https://jcgt.org/published/0011/01/03/
 More details about the method are available in:
 
 Frisken, S., "SurfaceNets for Multi-Label Segmentations with Preservation of Sharp Boundaries", Journal of Computer Graphcis Techniques, 2021.
+
+---
+
+## Build
+
+mkdir build
+cd build
+cmake -DCMAKE_PREFIX_PATH=~/Qt/5.15.2/clang_64 ..
+make
+

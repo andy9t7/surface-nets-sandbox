@@ -4,6 +4,7 @@
 //
 // Sarah Frisken, Brigham and Women's Hospital, Boston MA USA
 
+#include <math.h>
 #include <array>
 #include <vector>
 #include <map>

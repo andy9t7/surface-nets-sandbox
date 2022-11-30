@@ -5,7 +5,7 @@
 // Sarah Frisken, Brigham and Women's Hospital, Boston MA USA
 
 #include <algorithm>
-
+#include <math.h>
 #include "MMSurfaceNet.h"
 #include "MMGeometryGL.h"
 #include "MMCellMap.h"
