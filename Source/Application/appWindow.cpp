@@ -240,7 +240,6 @@ void AppWindow::importRaw(const char* rawFilename, int bytesPerVoxel, int arrayS
 	if (bytesPerVoxel == 2) {
 		// Open the raw data file and read data
 		int numRead = fread(data, sizeof(unsigned short), inputSize, fp);
-		fclose(fp);
 		if (numRead != inputSize) {
 			fclose(fp);
 			delete[] data;
